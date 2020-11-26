@@ -4,14 +4,14 @@ module.exports = {
   passphrase: "",
   cluster: [],
   dev: {
-    name: "开发环境",
+    name: "生产环境",
     script: "npm run build",
     host: "192.168.175.128",
     port: 22,
     username: "root",
     password: "root",
     distPath: "dist",
-    webDir: "/www/server/app/vue3demo",
+    webDir: "/www/server/app/vue3demo/dist",
     isRemoveRemoteFile: true
   }
 };
